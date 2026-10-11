@@ -1,8 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, Braces, Check, ChevronRight, Code2, FileText, Github, Layers, Mail, ShieldCheck, Sparkles, Terminal, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
-// Hero image served from CDN (binary asset lives outside this repo)
-const workshopGrid = "https://goodfolk-launchpad-home.lovable.app/assets/workshop-grid-0NYyw_0l.jpg";
+import workshopGrid from "@/assets/workshop-grid.jpg";
 
 const stacksiftUrl = "https://stacksift.goodfolkdigital.com";
 const toolboxUrl = "https://tools.goodfolkdigital.com";
